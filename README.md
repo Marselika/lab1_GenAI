@@ -1,4 +1,4 @@
-# Lab1_AIGen — Generator de text LSTM caracter-cu-caracter
+# Laboratorul 1 - Generator de text LSTM caracter-cu-caracter
 
 Model LSTM antrenat de la zero (fără modele pre-antrenate) care învață să prezică următorul caracter dintr-o secvență și generează text nou, caracter-cu-caracter, în limba română.
 
