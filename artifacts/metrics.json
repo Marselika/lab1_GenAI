@@ -1,0 +1,26 @@
+{
+  "total_chars": 739787,
+  "unique_chars": 32,
+  "vocab_size": 32,
+  "seq_length": 100,
+  "num_params": 931872,
+  "epochs_run": 30,
+  "train_seconds": 1686.2,
+  "final_train_loss": 1.4133859872817993,
+  "final_train_accuracy": 0.5626749992370605,
+  "val_loss": 1.4960460662841797,
+  "val_accuracy": 0.5384979248046875,
+  "val_top5_accuracy": 0.8440594673156738,
+  "val_perplexity": 4.464003755141458,
+  "val_bits_per_char": 2.1583382407696274,
+  "target_mode": "many_to_many",
+  "full_context_loss": 1.4599416781323757,
+  "full_context_perplexity": 4.305708404066688,
+  "unigram_perplexity": 17.862636842319453,
+  "uniform_perplexity": 32.0,
+  "diagnosis": [
+    "Cea mai bună epocă: 30/30 (val_loss = 1.4960, perplexity = 4.46).",
+    "Fără semne clare de overfitting (diferența val-train la final: +0.083).",
+    "Fără semne clare de underfitting."
+  ]
+}

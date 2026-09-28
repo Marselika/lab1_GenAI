@@ -1,0 +1,26 @@
+{
+  "total_chars": 739787,
+  "unique_chars": 32,
+  "vocab_size": 32,
+  "seq_length": 50,
+  "num_params": 931872,
+  "epochs_run": 5,
+  "train_seconds": 204.5,
+  "final_train_loss": 1.8768532276153564,
+  "final_train_accuracy": 0.42259839177131653,
+  "val_loss": 1.8448652029037476,
+  "val_accuracy": 0.4364570677280426,
+  "val_top5_accuracy": 0.7971062064170837,
+  "val_perplexity": 6.3272468384145455,
+  "val_bits_per_char": 2.6615778793378477,
+  "target_mode": "many_to_many",
+  "full_context_loss": 1.8126634938072226,
+  "full_context_perplexity": 6.126744264747544,
+  "unigram_perplexity": 17.862636842319453,
+  "uniform_perplexity": 32.0,
+  "diagnosis": [
+    "Cea mai bună epocă: 5/5 (val_loss = 1.8449, perplexity = 6.33).",
+    "Fără semne clare de overfitting (diferența val-train la final: -0.032).",
+    "Modelul încă se îmbunătățea la ultima epocă (train și val loss în scădere): antrenarea nu a convers - mai multe epoci ar ajuta (ușor underfitting)."
+  ]
+}
